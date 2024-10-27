@@ -1,4 +1,5 @@
 import { SparklesIcon } from 'lucide-react'
+import {User,skills} from '@/components/Userinfo'
 
 export default function Component() {
   return (
@@ -17,10 +18,10 @@ export default function Component() {
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-black tracking-tighter mb-4">PORTFOLIO</h1>
             <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4 mb-2">
               <div className="bg-pink-200 rounded-full px-4 py-1 border-b border-black">
-                <span className="text-sm text-black">Om Rawat</span>
+                <span className="text-sm text-black">{User.name}</span>
               </div>
               <div className="bg-lime-200 rounded-full px-4 py-1 border-b border-black">
-                <span className="text-sm text-black whitespace-nowrap">Frontend Designer | Illustrator</span>
+                <span className="text-sm text-black whitespace-nowrap">{User.designation}| Illustrator</span>
               </div>
               <span className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter text-black">2024</span>
             </div>
@@ -39,15 +40,17 @@ export default function Component() {
       
       {/* Category tags */}
       <div className="flex flex-wrap justify-center mt-4 gap-2 text-black px-2">
-        {['Branding', 'UI/UX Design', 'Layout', 'Illustration', 'Social Media'].map((category) => (
-          <div key={category} className="flex items-center">
-            <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full border border-black flex items-center justify-center mr-2">
-              <span className="text-lg sm:text-xl">+</span>
-            </div>
-            <span className="border border-black rounded-full px-3 sm:px-4 py-1 text-xs sm:text-sm">{category}</span>
+      {skills.map((category, id) => (
+        <div key={id} className="flex items-center">
+          <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full border border-black flex items-center justify-center mr-2">
+            <span className="text-lg sm:text-xl">+</span>
           </div>
-        ))}
-      </div>
+          <span className="border border-black rounded-full px-3 sm:px-4 py-1 text-xs sm:text-sm">
+            {category.skill}
+          </span>
+        </div>
+      ))}
+    </div>
     </div>
   )
 }

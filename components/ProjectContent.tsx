@@ -122,10 +122,5 @@ export type projectData = {
     },
   
   ];
-  
-  // {
-  //     title: "",
-  //     description: "",
-  //     tags: [""],
-  //   },
+
   

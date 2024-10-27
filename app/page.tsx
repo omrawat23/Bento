@@ -1,8 +1,8 @@
 "use client"
 
 import Component from "@/components/Banner"
-import CurameSection from "@/components/Bento"
-import ThankYouSection from "@/components/End"
+import CurameSection from "@/components/Projects"
+import ThankYouSection from "@/components/Socials"
 import TableOfContents from "@/components/Work"
 
 export default function Home() {
