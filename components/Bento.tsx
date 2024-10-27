@@ -2,9 +2,9 @@
 
 import { useState } from 'react'
 import { SparklesIcon, ChevronLeftIcon, ChevronRightIcon } from 'lucide-react'
-import { projectsContent } from './ProjectContent'
+import { projectsContent, projectData } from './ProjectContent'
 
-const ProjectCard = ({ project, isWide = false }) => {
+const ProjectCard = ({ project, isWide = false }: { project: projectData; isWide?: boolean }) => {
   return (
     <div className={`bg-[#fffaf4] rounded-3xl overflow-hidden border-2 border-black shadow-md hover:shadow-xl transition-all ${isWide ? 'col-span-full lg:col-span-2' : 'col-span-full lg:col-span-1'}`}>
       {/* Image Section */}
