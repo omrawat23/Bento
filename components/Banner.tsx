@@ -1,7 +1,7 @@
 import { SparklesIcon } from 'lucide-react'
 import {User,skills} from '@/components/Userinfo'
 
-export default function Component() {
+export default function Banner() {
   return (
     <div className="max-w-4xl px-4 sm:px-6 lg:px-8 m-4">
       <div className="border border-black rounded-lg overflow-hidden">
@@ -15,13 +15,13 @@ export default function Component() {
           
           {/* Main content */}
           <div className="mt-8 sm:mt-6">
-            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-black tracking-tighter mb-4">PORTFOLIO</h1>
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-black tracking-tighter mb-4">{User.name}</h1>
             <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4 mb-2">
               <div className="bg-pink-200 rounded-full px-4 py-1 border-b border-black">
                 <span className="text-sm text-black">{User.name}</span>
               </div>
               <div className="bg-lime-200 rounded-full px-4 py-1 border-b border-black">
-                <span className="text-sm text-black whitespace-nowrap">{User.designation}| Illustrator</span>
+                <span className="text-sm text-black whitespace-nowrap">{User.designation}| {User.degree}</span>
               </div>
               <span className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter text-black">2024</span>
             </div>

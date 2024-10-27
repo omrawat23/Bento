@@ -1,11 +1,11 @@
 import { Mail, ThumbsUp, GithubIcon,TwitterIcon,LinkedinIcon } from 'lucide-react';
 import {socialContent} from '@/components/Userinfo'
 
-export default function ThankYouSection() {
+export default function Socials() {
   return (
     <div className="max-w-4xl px-4 sm:px-6 lg:px-8 mt-4 ">
       <h2 className="text-3xl sm:text-4xl font-bold mb-2 text-center text-black">/socials</h2>
-      <div className="relative border-2 border-black rounded-3xl p-4 sm:p-8 overflow-hidden">
+      <div className="relative border-2 border-black rounded-3xl p-4 sm:p-8  overflow-hidden">
         {/* Main content */}
         <div className="relative">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">

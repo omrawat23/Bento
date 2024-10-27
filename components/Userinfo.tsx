@@ -2,11 +2,13 @@
 export type UserInfo = {
     name: string;
     designation: string;
+    degree: string;
   };
 
   export const User: UserInfo = {
     name: 'Om Rawat',
-    designation: 'full stack developer'
+    designation: 'Full-stack Developer',
+    degree: 'CS Undergrad'
   };
   
   export type Skills = {

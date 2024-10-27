@@ -6,7 +6,7 @@ import ProjectCard from './ProjectCard'
 import PaginationControls from './PaginationControls'
 import { projectsContent } from './Userinfo'
 
-export default function CurameSection() {
+export default function Projects() {
   const [currentPage, setCurrentPage] = useState(1)
   const projectsPerPage = 3
   const totalPages = Math.ceil(projectsContent.length / projectsPerPage)
