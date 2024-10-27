@@ -17,7 +17,7 @@ export default function Home() {
         <ThankYouSection />
       </div>
 
-      <div className="w-full lg:w-2/3 lg:mr-12 order-2 lg:order-2 hidden lg:block mt-4"> 
+      <div className="w-full lg:w-2/3 lg:mr-12 order-2 lg:order-2 hidden lg:block"> 
         <CurameSection />
       </div>
     </div>

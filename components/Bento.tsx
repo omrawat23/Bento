@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import { SparklesIcon, ChevronLeftIcon, ChevronRightIcon } from 'lucide-react'
-import Image from 'next/image'
 import { projectsContent } from './ProjectContent'
 
 const ProjectCard = ({ project, isWide = false }) => {
@@ -82,7 +81,7 @@ export default function CurameSection() {
   }
 
   return (
-    <div className="max-w-[850px] p-4 sm:p-6 md:p-8 bg-[#fffaf4] rounded-2xl relative overflow-hidden border-2 border-black ">
+    <div className="max-w-[850px] p-4 sm:p-6 md:p-8 bg-[#fffaf4] rounded-2xl relative overflow-hidden border-2 border-black m-4">
       {/* Header with Pagination */}
       <div className="flex flex-col sm:flex-row justify-between items-start mb-6 sm:mb-8">
         <div className="mb-4 sm:mb-0">
