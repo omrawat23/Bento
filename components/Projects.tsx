@@ -19,7 +19,7 @@ export default function Projects() {
   const prevPage = () => setCurrentPage(curr => Math.max(curr - 1, 1))
 
   return (
-    <div className="max-w-[850px] p-4 sm:p-6 md:p-8 bg-[#fffaf4] rounded-2xl relative overflow-hidden border-2 border-black m-4">
+    <div className="max-w-[850px] p-4 sm:p-6 md:p-8 bg-[#fffaf4] rounded-2xl relative overflow-hidden border-2 border-black 2xl:m-4 md:m-10 sm:m-8 xs:m-8">
       {/* Header with Pagination */}
       <div className="flex flex-col sm:flex-row justify-between items-start mb-6 sm:mb-8">
       <div className="mb-4 sm:mb-0">

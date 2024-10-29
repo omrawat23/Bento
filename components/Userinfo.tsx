@@ -16,12 +16,12 @@ export type UserInfo = {
   };
   
   export const skills: Skills[] = [
-    { skill: 'UI/UX' },
-    { skill: 'Fullstack' },
-    { skill: 'UI/UX' },
-    { skill: 'Fullstack' },
-    { skill: 'UI/UX' },
-    { skill: 'Fullstack' },
+    { skill: 'Next.js' },
+    { skill: 'React.js' },
+    { skill: 'MERN' },
+    { skill: 'Javascript' },
+    { skill: 'Typescript' },
+    { skill: 'Java' },
   ];
   
 
@@ -64,7 +64,7 @@ export type UserInfo = {
   };
   
   export const socialContent: SocialData = {
-    resume: '/omrawat.xyz',
+    resume: '/omrawatxyz.pdf',
     gmail: 'mailto:omraw29@gmail.com',
     github: 'https://github.com/omrawat23',
     twitter: 'https://x.com/omraw29',
@@ -108,12 +108,11 @@ export type UserInfo = {
       {
         title: "Spotifind",
         description:
-          "Spotifind allows you to connect to your Spotify account to generate custom playlists based on your musical taste.",
-          image:"/feedback.png",
+          "Spotifind allows you to generate custom playlists based on your musical taste.",
+          image:"/spotifind.png",
           tags: [
           "Next.js",
-          "React",
-          "TypeScript",
+          "React.js",
           "Magic UI",
           "Spotify API",
           "Gemini API",
@@ -128,15 +127,12 @@ export type UserInfo = {
         title: "MyBlog",
         description:
           "This blog app that allows users to create, edit, and delete blog posts seamlessly. ",
-          image:"/feedback.png",
+          image:"/blog.png",
           tags: [
           "React",
           "Node.js",
           "Express.js",
-          "Mongoose",
           "MongoDB",
-          "bCrypt",
-          "JWT",
           "Tailwind CSS",
         ],
         link: {
@@ -149,7 +145,7 @@ export type UserInfo = {
         title: "Pokédex",
         description:
           "The Pokédex application is a  web app that allows users to explore and provides detailed information about each Pokémon.",
-          image:"/feedback.png",
+          image:"/poke.png",
           tags: [
           "React",
           "PokeAPI",
@@ -164,7 +160,7 @@ export type UserInfo = {
       {
         title: "Pookie-Tate",
         description: "A site where you can chat with and listen to Andrew Tate sounding like a 'pookie'.",    
-        image:"/feedback.png",
+        image:"/andrew.png",
         tags: [
           "React",
           "Node.js",

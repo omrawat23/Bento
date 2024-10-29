@@ -1,4 +1,5 @@
 'use client'
+
 import { SparklesIcon } from 'lucide-react'
 import Image from 'next/image'
 import { ProjectData } from './Userinfo'
@@ -7,8 +8,14 @@ const ProjectCard = ({ project, isWide = false }: { project: ProjectData; isWide
   return (
     <div className={`bg-[#fffaf4] rounded-3xl overflow-hidden border-2 border-black shadow-md hover:shadow-xl transition-all ${isWide ? 'col-span-full lg:col-span-2' : 'col-span-full lg:col-span-1'}`}>
       {/* Image Section */}
-      <div className="relative h-48 sm:h-56 md:h-64 lg:h-2 lg:hidden w-full">
-        <Image src={project.image} alt={project.title} width={400} height={100} />
+      <div className="relative w-full h-48 sm:h-56 md:h-64 lg:h-72 lg:hidden">
+        <Image 
+          src={project.image} 
+          alt={project.title} 
+          layout="fill"
+          objectFit="cover"
+          className="transition-transform duration-300 ease-in-out transform hover:scale-105"
+        />
       </div>
       {/* Content Section */}
       <div className="p-4 sm:p-6">
