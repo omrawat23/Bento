@@ -109,7 +109,7 @@ export type UserInfo = {
         title: "Spotifind",
         description:
           "Spotifind allows you to generate custom playlists based on your musical taste.",
-          image:"/spotifind.png",
+          image:"/spotifind.PNG",
           tags: [
           "Next.js",
           "React.js",
@@ -127,7 +127,7 @@ export type UserInfo = {
         title: "MyBlog",
         description:
           "This blog app that allows users to create, edit, and delete blog posts seamlessly. ",
-          image:"/blog.png",
+          image:"/blog.PNG",
           tags: [
           "React",
           "Node.js",
@@ -145,7 +145,7 @@ export type UserInfo = {
         title: "Pokédex",
         description:
           "The Pokédex application is a  web app that allows users to explore and provides detailed information about each Pokémon.",
-          image:"/poke.png",
+          image:"/poke.PNG",
           tags: [
           "React",
           "PokeAPI",
@@ -160,7 +160,7 @@ export type UserInfo = {
       {
         title: "Pookie-Tate",
         description: "A site where you can chat with and listen to Andrew Tate sounding like a 'pookie'.",    
-        image:"/andrew.png",
+        image:"/andrew.PNG",
         tags: [
           "React",
           "Node.js",
