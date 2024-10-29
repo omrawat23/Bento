@@ -1,9 +1,9 @@
 import { SparklesIcon } from 'lucide-react'
-import {User,skills} from '@/components/Userinfo'
+import { User,skills } from '@/components/Userinfo'
 
 export default function Banner() {
   return (
-    <div className="max-w-4xl px-4  sm:px-6 lg:px-8 m-4 xsm:">
+    <div className="max-w-4xl xs:px-6 lg:px-8 md:m-4 xs:m-4">
       <div className="border border-black rounded-lg overflow-hidden">
         <div className="bg-[#fffaf4] p-4 sm:p-6 relative">
           {/* Browser-like controls */}
