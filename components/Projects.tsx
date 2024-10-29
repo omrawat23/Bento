@@ -24,7 +24,7 @@ export default function Projects() {
       <div className="flex flex-col sm:flex-row justify-between items-start mb-6 sm:mb-8">
       <div className="mb-4 sm:mb-0">
           <h2 className="text-3xl sm:text-4xl font-bold flex items-center text-black">
-            code:projects
+            /projects
             <SparklesIcon className="w-5 h-5 sm:w-6 sm:h-6 text-pink-400 ml-2" />
           </h2>
           <div className="flex flex-wrap gap-2 mt-3">

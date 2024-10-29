@@ -8,7 +8,7 @@ export default function Socials() {
       <div className="relative border-2 border-black rounded-3xl p-4 sm:p-8  overflow-hidden mb-4">
         {/* Main content */}
         <div className="relative">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 items-center justify-center">   
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-3 items-center justify-center">   
             
           <a href={socialContent.resume} target="_blank" rel="noopener noreferrer">
           <button className="w-full sm:w-auto bg-pink-200 text-black px-4 sm:px-6 py-2 rounded-full text-sm flex items-center justify-center">
@@ -19,7 +19,7 @@ export default function Socials() {
            
           <a href={socialContent.gmail} target="_blank" rel="noopener noreferrer">
           <button className="w-full sm:w-auto bg-lime-200 text-black px-4 sm:px-6 py-2 rounded-full text-sm flex items-center justify-center">
-            <Mail className="w-4 h-4 mr-2" />
+            <Mail className="w-4 h-4 mr-3" />
             Gmail
           </button>
           </a>
