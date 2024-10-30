@@ -28,9 +28,9 @@ export default function Projects() {
             <SparklesIcon className="w-5 h-5 sm:w-6 sm:h-6 text-pink-400 ml-2" />
           </h2>
           <div className="flex flex-wrap gap-2 mt-3">
-            <span className="bg-lime-200 text-black text-xs sm:text-sm px-3 sm:px-4 py-1 sm:py-1.5 rounded-full font-medium border border-black">Personal Project</span>
-            <span className="bg-gray-100 text-black text-xs sm:text-sm px-3 sm:px-4 py-1 sm:py-1.5 rounded-full font-medium border border-black">Branding</span>
-            <span className="bg-gray-100 text-black text-xs sm:text-sm px-3 sm:px-4 py-1 sm:py-1.5 rounded-full font-medium border border-black">Layout</span>
+            <span className="bg-lime-200 text-black text-xs sm:text-sm px-3 sm:px-4 py-1 sm:py-1.5 rounded-full font-medium border border-black">Personal Projects</span>
+            <span className="bg-gray-100 text-black text-xs sm:text-sm px-3 sm:px-4 py-1 sm:py-1.5 rounded-full font-medium border border-black">WebDev</span>
+            <span className="bg-gray-100 text-black text-xs sm:text-sm px-3 sm:px-4 py-1 sm:py-1.5 rounded-full font-medium border border-black">UI/UX</span>
           </div>
         </div>
         <PaginationControls currentPage={currentPage} totalPages={totalPages} nextPage={nextPage} prevPage={prevPage} />
