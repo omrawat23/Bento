@@ -64,7 +64,7 @@ export type UserInfo = {
   };
   
   export const socialContent: SocialData = {
-    resume: '/omrawatxyz.pdf',
+    resume: '/omrawat.pdf',
     gmail: 'mailto:omraw29@gmail.com',
     github: 'https://github.com/omrawat23',
     twitter: 'https://x.com/omraw29',
