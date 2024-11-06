@@ -120,7 +120,7 @@ export type UserInfo = {
         link: {
           github: "https://github.com/omrawat23/playlist.git",
           twitter: "",
-          live: "https://matchmakerr.vercel.app",
+          live: "https://spotifindd.vercel.app",
         },
       },
       {
