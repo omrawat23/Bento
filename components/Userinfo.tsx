@@ -46,11 +46,11 @@ export type UserInfo = {
     },
     {
       id: '02',
-      title: 'CSR Intern',
-      company: 'CountryEdu Private Limited',
+      title: 'Frontend Developer Intern',
+      company: 'Olympiad Success',
       location: 'Gurgaon',
       period: 'June 2023 - July 2023',
-      description: 'Identified and resolved website issues, including broken links and formatting. Collaborated as a team member to improve the website and wrote content for various services.',
+      description: 'Identified and resolved website issues, including 10 broken links and formatting. Collaborated cross-functionally in developing compelling service-focused content that improved user understanding and conversion rates by 20%.',
     },
   ];
   
